@@ -1,0 +1,28 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "include": [
+    "ai_core",
+    "cognitive_engine",
+    "core_engine",
+    "cultural_evolution",
+    "ecosystem",
+    "evolution",
+    "graphics",
+    "hardware_bridge",
+    "monitoring",
+    "simulation",
+    "tests",
+    "main.py",
+    "orchestrator.py",
+    "runtime_orchestrator.py"
+  ],
+  "exclude": [
+    ".venv",
+    "**/__pycache__"
+  ],
+  "stubPath": "typings",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none",
+  "pythonVersion": "3.12"
+}
